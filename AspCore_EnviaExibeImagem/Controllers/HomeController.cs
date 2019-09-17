@@ -12,7 +12,7 @@ namespace AspNetCore_EnviaExibeImagem.Controllers
     {
         public IActionResult Index()
         {
-            return ;
+            return View();
         }
 
         public IActionResult About()
