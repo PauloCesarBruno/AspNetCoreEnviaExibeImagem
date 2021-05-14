@@ -21,7 +21,7 @@ namespace AspCore_EnviaExibeImagem
         public static IWebHost BuildWebHost(string[] args) =>
             WebHost.CreateDefaultBuilder(args)
                 .UseStartup<Startup>()
-                .UseIISIntegration() // Define o IIS como Proxy
+                .UseIISIntegration() // Define o IIS como Proxy Reverso
                 .Build();
     }
 }
